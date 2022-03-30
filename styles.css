@@ -3,14 +3,11 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: seashell;
-    background-color: black;
-    opacity: 0.9;
     text-align: center;
 }
 
 h2 {
     font-size: 45px;
-    margin-bottom: 25px;
 }
 
 h4 {
@@ -31,6 +28,8 @@ header {
     background-color: black;
     border-bottom: 1px solid seashell;
     z-index: 10;
+    background-color: black;
+    opacity: 0.9;
 }
 
 .navelement {
@@ -57,8 +56,14 @@ h2.menuitem {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2.sub {
+    margin-bottom: 25px;
+    background-color: transparent;
+}
 main {
     margin-top: 69px;
+    background-color: black;
+    opacity: 0.9;
 }
 
 /* H E R O */
@@ -80,6 +85,7 @@ main {
     flex-basis: 100%;
     padding: 25px;
     opacity: 1;
+    background-color: black;
 }
 
 /* T E A  O F  M O N T H */
@@ -110,3 +116,35 @@ main {
 }
 
 /* L O C A T I O N S */
+
+.locations {
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blockin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/images/img-locations-background.webp);
+    flex-basis: 1200px;
+    height: 500px;
+}
+.containerLocation {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.locationBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    align-content: space-between;
+    flex-basis: 300px;
+    height: 300px;
+}
+
+/* F O O T E R*/
