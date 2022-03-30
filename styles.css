@@ -7,10 +7,10 @@
     opacity: 0.9;
     text-align: center;
 }
+
 h2 {
-    font-size: 24px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-bottom: 25px;
 }
 
 /* N A V */
@@ -47,8 +47,33 @@ li:not(:last-child) {
     margin-right: 30px;
 }
 
+h2.menuitem {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 main {
     margin-top: 69px;
 }
 
 /* H E R O */
+
+.test {
+    display: flex;
+    justify-content: center;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    flex-basis: 1200px;
+    height: 700px;
+    background-image: url(/images/img-mission-background.webp);
+    justify-content: center;
+}
+
+.herotext {
+    flex-basis: 100%;
+    padding: 25px;
+    opacity: 1;
+}
